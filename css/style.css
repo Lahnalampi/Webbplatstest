@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+}
+
+.site {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 5px;
+    background-color: #fff;
+    color: #444;
+}
+
+.header {
+    grid-column: 1/span 6;
+    grid-row: 1;
+    background-color:rgb(255, 255, 255);
+    color: white;
+    border-bottom: solid 2px rgb(160, 159, 159);
+}
+
+.header > h1 {
+    text-align: center;
+    padding-bottom: 2%;
+    color: rgb(148, 147, 147);
+}
+
+header > nav > ul {
+    text-align: center;
+}
+
+header > nav > ul > li {
+    display: inline;
+    margin: 4%;
+}
+
+header > nav > ul > li > a {
+    color: rgb(148, 147, 147);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+header > nav > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+
+
+.sidbar {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: rgb(255, 255, 255);
+    border:solid 2px rgb(148, 147, 147);
+}
+
+.sidbar > nav > h3 {
+    margin-left: 5%;
+    color: rgb(148, 147, 147);
+}
+
+.sidbar > nav > ul {
+    margin-left: 4%;
+    color: rgb(148, 147, 147);
+}
+
+.sidbar > nav > ul > li {
+    margin-left: 2%;
+    color: rgb(148, 147, 147);
+}
+
+.sidbar > nav > ul > li > a {
+    color: rgb(148, 147, 147);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.sidbar > nav > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+
+.galleri {
+    grid-column: 2/span 5;
+    grid-row: 2;
+   
+}
+
+.nested img {
+    float: left;
+    width: 30%;
+    margin: 1.6%;
+}
+
+.box {
+    padding: 14px;
+    border-radius:5px;
+}
+
+
+.box {
+    padding: 14px;
+    border-radius:5px;
+}
+.sidfot {
+   grid-column: 1/ span 6;
+   grid-row: 7;
+   background-color:rgb(255, 255, 255);
+   color: rgb(148, 147, 147);
+   border-top: solid 2px rgb(148, 147, 147);
+   padding: 0.5%;
+}
+
+.sidfot p {
+padding: 0;
+margin: 0;
+float: right;
+}
+
